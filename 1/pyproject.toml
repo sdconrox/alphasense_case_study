@@ -1,0 +1,18 @@
+[project]
+name = "alphasenseingestor"
+version = "0.1.0"
+description = "Ingest documents into AlphaSense Enterprise Intelligence Platform"
+requires-python = ">=3.13.3"
+dependencies = [
+    "click>=8.1",
+]
+
+[project.scripts]
+alphasenseingestor = "alphasenseingestor:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "alphasenseingestor"

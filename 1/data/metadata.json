@@ -1,0 +1,36 @@
+{
+    "title": "Document Upload",
+    "companies": [
+        {
+            "value": "US5949181045",
+            "operation": "ADD",
+            "identifier": "ISIN",
+            "salience": "PRIMARY"
+        }
+    ],
+    "customTags": [
+        {
+            "name": "pb_tag",
+            "visibility": "PUBLIC",
+            "operation": "ADD"
+        },
+        {
+            "name": "pV_tag",
+            "visibility": "PRIVATE",
+            "operation": "ADD"
+        }
+    ],
+    "shareInfo": {
+        "mode": "DEFAULT"
+    },
+    "docAuthors": [
+        {
+            "authorName": "Shane Conroy",
+            "operation": "ADD"
+        }
+    ],
+    "documentOwner": "sdconrox@gmail.com",
+    "createdTimestamp": "2025-09-05T15:36:47-04:00",
+    "sourceType": "Sample Documents",
+    "documentUrl": "https://sdconrox.com"
+}
