@@ -27,7 +27,7 @@ The `alphasenseingestor.py` script provides a complete document upload solution 
 1. Download and open a terminal to the base folder containing `alphasenseingestor.py`.
 
         git clone https://github.com/sdconrox/alphasense_case_study.git
-        cd alphasense_case_study
+        cd alphasense_case_study/1
 
 2. Install
 
@@ -107,8 +107,8 @@ Create a `metadata.json` file for document metadata:
     - Default location: ./alphasense.toml
     - Custom location: Use -c flag
 3. Network Access: Ensure access to AlphaSense APIs
-    - https://api.alpha-sense.com (authentication)
-    - https://research.alpha-sense.com (document upload)
+    - `https://api.alpha-sense.com` (authentication)
+    - `https://research.alpha-sense.com` (document upload)
     - If deployed on-prem, ensure access to domain and subnet of deployment.
 
 ### File Requirements
