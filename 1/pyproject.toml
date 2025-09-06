@@ -5,6 +5,7 @@ description = "Ingest documents into AlphaSense Enterprise Intelligence Platform
 requires-python = ">=3.13.3"
 dependencies = [
     "click>=8.1",
+    "requests>=2.25.0"
 ]
 
 [project.scripts]
